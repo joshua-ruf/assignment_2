@@ -173,7 +173,7 @@ nn$fitness_curve = NULL
     )
 )
 
-ggsave('plots/nn1-accuracy.png', height=8, width=4, dpi=300)
+ggsave('plots/nn1-accuracy.png', height=4, width=8, dpi=300)
 
 (
   plot = nn[hidden_nodes=="[8]"] %>%
@@ -193,7 +193,7 @@ ggsave('plots/nn1-accuracy.png', height=8, width=4, dpi=300)
     )
 )
 
-ggsave('plots/nn1-f1.png', height=8, width=4, dpi=300)
+ggsave('plots/nn1-f1.png', height=4, width=8, dpi=300)
 
 (
   plot = nn[hidden_nodes == "[8]" & sample_size == 1932] %>%
@@ -209,7 +209,7 @@ ggsave('plots/nn1-f1.png', height=8, width=4, dpi=300)
     )
 )
 
-ggsave('plots/nn1-accuracy-dist.png', height=8, width=4, dpi=300)
+ggsave('plots/nn1-accuracy-dist.png', height=4, width=8, dpi=300)
 
 
 nn[hidden_nodes == "[8]" & sample_size == 1932][order(-f1_train)][1]
