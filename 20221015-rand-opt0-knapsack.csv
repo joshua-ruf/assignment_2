@@ -1,0 +1,2 @@
+fitness,algorithm,input_size,number_of_iterations,best_fitness,time,random_state,max_iters
+Knapsack,random_hill_climb,5,10,0.0,0.0009052753448486328,0,inf
